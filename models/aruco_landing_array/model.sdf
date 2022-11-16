@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='Untitled'>
+    <model name='my_aruco'>
+      <link name='DICT_4X4_50_id2_link_0'>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.0741667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0585417</iyy>
+            <iyz>0</iyz>
+            <izz>0.0260417</izz>
+          </inertia>
+        </inertial>
+        <visual name='DICT_4X4_50_id2_link_0_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.6 0.225 0.01</size>
+            </box>
+          </geometry>
+        </visual>
+        <visual name='DICT_4X4_50_id2_link_0_visual_1'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1.3889 1.3889 1.05556</scale>
+              <uri>model://aruco_id3_12_5/meshes/DICT_4X4_50/DICT_4X4_50_id3.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <gravity>0</gravity>
+      </link>
+      <pose>0.345529 -0.200902 0 0 -0 1.56986</pose>
+    </model>
+    <model name='my_aruco_0'>
+      <link name='DICT_4X4_50_id0_link_0'>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.0741667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0585417</iyy>
+            <iyz>0</iyz>
+            <izz>0.0260417</izz>
+          </inertia>
+        </inertial>
+        <visual name='DICT_4X4_50_id0_link_0_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1.1 1.1 0.01</size>
+            </box>
+          </geometry>
+        </visual>
+        <visual name='DICT_4X4_50_id0_link_0_visual_1'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>11.1111 11.1111 1</scale>
+              <uri>model://aruco_id0/meshes/DICT_4X4_50/DICT_4X4_50_id0.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <gravity>0</gravity>
+      </link>
+      <pose>-0.091422 0.601214 0 0 -0 1.57128</pose>
+    </model>
+    <model name='my_aruco_1'>
+      <link name='DICT_4X4_50_id1_link_0'>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.0741667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0585417</iyy>
+            <iyz>0</iyz>
+            <izz>0.0260417</izz>
+          </inertia>
+        </inertial>
+        <visual name='DICT_4X4_50_id1_link_0_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.6 0.6 0.01</size>
+            </box>
+          </geometry>
+        </visual>
+        <visual name='DICT_4X4_50_id1_link_0_visual_1'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>5.55556 5.55556 1.05556</scale>
+              <uri>model://aruco_id1_50/meshes/DICT_4X4_50/DICT_4X4_50_id1.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <gravity>0</gravity>
+      </link>
+      <pose>-0.340658 -0.200123 0 0 -0 1.57168</pose>
+    </model>
+    <model name='my_aruco_2'>
+      <link name='DICT_4X4_50_id2_link_0'>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.0741667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0585417</iyy>
+            <iyz>0</iyz>
+            <izz>0.0260417</izz>
+          </inertia>
+        </inertial>
+        <visual name='DICT_4X4_50_id2_link_0_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.6 0.35 0.01</size>
+            </box>
+          </geometry>
+        </visual>
+        <visual name='DICT_4X4_50_id2_link_0_visual_1'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>2.77778 2.77778 1.05556</scale>
+              <uri>model://aruco_id2_25/meshes/DICT_4X4_50/DICT_4X4_50_id2.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <gravity>0</gravity>
+      </link>
+      <pose>0.086552 -0.20019 0 0 -0 1.56879</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

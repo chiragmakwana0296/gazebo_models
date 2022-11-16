@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+<model name='drone_payload_box'>
+    <link name='base_link'> 
+    <pose frame=''>0 0 0.10 0 0 0</pose>
+    <inertial>
+      <mass>0.010</mass>
+      <inertia>
+        <ixx>0.0001</ixx>
+        <iyy>0.0001</iyy>
+        <izz>0.0001</izz>
+            <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+    </inertial>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>0.10 0.10 0.20 </size>
+        </box>
+      </geometry>
+      </collision>
+      <visual name='visual'>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+            <box>
+              <size>0.20 0.20 0.20 </size>
+            </box>
+          </geometry>
+          <material>
+              <script>
+                  <uri>model://drone_payload_box/materials/scripts</uri>
+                  <uri>model://drone_payload_box/materials/textures</uri>
+                  <name>sald/payload_box</name>
+              </script>
+          </material>
+      </visual>
+     </link>
+    
+    <static>0</static>
+  </model>
+</sdf>

@@ -1,0 +1,279 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='sald_pickup_drop_zone'>
+      <model name='drone_landing_zone'>
+        <model name='landing_zone'>
+          <model name='Construction Cone'>
+            <link name='link'>
+              <collision name='collision'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </collision>
+              <visual name='visual'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </visual>
+            </link>
+            <static>1</static>
+            <pose>-3.50 3.50 0.1 0 -0 0</pose>
+          </model>
+          <model name='Construction Cone_0'>
+            <link name='link'>
+              <collision name='collision'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </collision>
+              <visual name='visual'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </visual>
+            </link>
+            <static>1</static>
+            <pose>3.50 3.50 0.1 0 -0 0</pose>
+          </model>
+          <model name='Construction Cone_1'>
+            <link name='link'>
+              <collision name='collision'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </collision>
+              <visual name='visual'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </visual>
+            </link>
+            <static>1</static>
+            <pose>-3.50 -3.50 0.1 0 -0 0</pose>
+          </model>
+          <model name='Construction Cone_2'>
+            <link name='link'>
+              <collision name='collision'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </collision>
+              <visual name='visual'>
+                <geometry>
+                  <mesh>
+                    <scale>10 10 10</scale>
+                    <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+                  </mesh>
+                </geometry>
+              </visual>
+            </link>
+            <static>1</static>
+            <pose>3.50 -3.50 0.1 0 -0 0</pose>
+          </model>
+          <static>1</static>
+          <allow_auto_disable>1</allow_auto_disable>
+          <pose>0 0 0 0 0 0</pose>
+        </model>
+        <model name='land_zone_wall'>
+          <pose>0 0 0 0 0 0</pose>
+          <link name='Wall_0'>
+            <collision name='Wall_0_Collision'>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <pose>0 0 0.375 0 -0 0</pose>
+            </collision>
+            <visual name='Wall_0_Visual'>
+              <pose>0 0 0.375 0 -0 0</pose>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <material>
+                <script>
+                  <uri>file://media/materials/scripts/gazebo.material</uri>
+                  <name>Gazebo/Bricks</name>
+                </script>
+                <ambient>1 1 1 1</ambient>
+              </material>
+              <meta>
+                <layer>0</layer>
+              </meta>
+            </visual>
+            <pose>0 -2.675 0 0 -0 0</pose>
+          </link>
+          <link name='Wall_1'>
+            <collision name='Wall_1_Collision'>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <pose>0 0 0.375 0 -0 0</pose>
+            </collision>
+            <visual name='Wall_1_Visual'>
+              <pose>0 0 0.375 0 -0 0</pose>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <material>
+                <script>
+                  <uri>file://media/materials/scripts/gazebo.material</uri>
+                  <name>Gazebo/Bricks</name>
+                </script>
+                <ambient>1 1 1 1</ambient>
+              </material>
+              <meta>
+                <layer>0</layer>
+              </meta>
+            </visual>
+            <pose>2.675 -0 0 0 -0 1.5708</pose>
+          </link>
+          <link name='Wall_3'>
+            <collision name='Wall_3_Collision'>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <pose>0 0 0.375 0 -0 0</pose>
+            </collision>
+            <visual name='Wall_3_Visual'>
+              <pose>0 0 0.375 0 -0 0</pose>
+              <geometry>
+                <box>
+                  <size>5.5 0.15 0.75</size>
+                </box>
+              </geometry>
+              <material>
+                <script>
+                  <uri>file://media/materials/scripts/gazebo.material</uri>
+                  <name>Gazebo/Bricks</name>
+                </script>
+                <ambient>1 1 1 1</ambient>
+              </material>
+              <meta>
+                <layer>0</layer>
+              </meta>
+            </visual>
+            <pose>-2.675 -0 0 0 -0 1.5708</pose>
+          </link>
+          <link name='Wall_4'>
+            <pose>0 2.675 0 0 -0 0</pose>
+            <visual name='Wall_4_Visual_0'>
+              <pose>-1.58851 0 0.375 0 -0 0</pose>
+              <geometry>
+                <box>
+                  <size>2.32298 0.15 0.75</size>
+                </box>
+              </geometry>
+              <material>
+                <script>
+                  <uri>file://media/materials/scripts/gazebo.material</uri>
+                  <name>Gazebo/Bricks</name>
+                </script>
+                <ambient>1 1 1 1</ambient>
+              </material>
+              <meta>
+                <layer>0</layer>
+              </meta>
+            </visual>
+            <collision name='Wall_4_Collision_0'>
+              <geometry>
+                <box>
+                  <size>2.32298 0.15 0.75</size>
+                </box>
+              </geometry>
+              <pose>-1.58851 0 0.375 0 -0 0</pose>
+            </collision>
+            <visual name='Wall_4_Visual_1'>
+              <pose>1.61149 0 0.375 0 -0 0</pose>
+              <geometry>
+                <box>
+                  <size>2.27702 0.15 0.75</size>
+                </box>
+              </geometry>
+              <material>
+                <script>
+                  <uri>file://media/materials/scripts/gazebo.material</uri>
+                  <name>Gazebo/Bricks</name>
+                </script>
+                <ambient>1 1 1 1</ambient>
+              </material>
+              <meta>
+                <layer>0</layer>
+              </meta>
+            </visual>
+            <collision name='Wall_4_Collision_1'>
+              <geometry>
+                <box>
+                  <size>2.27702 0.15 0.75</size>
+                </box>
+              </geometry>
+              <pose>1.61149 0 0.375 0 -0 0</pose>
+            </collision>
+          </link>
+          <static>1</static>
+        </model>
+        <static>1</static>
+        <allow_auto_disable>1</allow_auto_disable>
+        <pose>0 0 0 0 -0 1.57568</pose>
+      </model>
+     
+    
+      <include>
+        <pose> 0.60 0.345529  0.3 0 0 -1.5707963</pose>
+        <uri>model://aruco_landing_array</uri>
+        <static>1</static>
+      </include>
+
+      <model name='box_target_red'>
+        <pose>0 0 -0.70 0 -0 0</pose>
+        <static>1</static>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <box>
+                <size>6 6 2</size>
+              </box>
+            </geometry>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://box_target_red/meshes/mesh.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+        </link>
+      </model>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
